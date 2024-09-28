@@ -1,0 +1,53 @@
+# Everforest color theme for Zathura
+# Based on Everforest's soft earthy tones
+
+#
+# Everforest color theme
+#
+
+set notification-error-bg       rgba(230,126,115,1)   # Red (soft)
+set notification-error-fg       rgba(223,219,202,1)   # Foreground (light)
+set notification-warning-bg     rgba(232,159,98,1)    # Orange (muted)
+set notification-warning-fg     rgba(67,76,94,1)      # Selection (dark grey)
+set notification-bg             rgba(43,51,57,1)      # Background (dark grey)
+set notification-fg             rgba(223,219,202,1)   # Foreground (light)
+
+set completion-bg               rgba(43,51,57,1)      # Background (dark grey)
+set completion-fg               rgba(123,144,162,1)   # Comment (soft blue-grey)
+set completion-group-bg         rgba(43,51,57,1)      # Background (dark grey)
+set completion-group-fg         rgba(123,144,162,1)   # Comment (soft blue-grey)
+set completion-highlight-bg     rgba(67,76,94,1)      # Selection (dark grey)
+set completion-highlight-fg     rgba(223,219,202,1)   # Foreground (light)
+
+set index-bg                    rgba(43,51,57,1)      # Background (dark grey)
+set index-fg                    rgba(223,219,202,1)   # Foreground (light)
+set index-active-bg             rgba(67,76,94,1)      # Current Line (darker grey)
+set index-active-fg             rgba(223,219,202,1)   # Foreground (light)
+
+set inputbar-bg                 rgba(43,51,57,1)      # Background (dark grey)
+set inputbar-fg                 rgba(223,219,202,1)   # Foreground (light)
+set statusbar-bg                rgba(43,51,57,1)      # Background (dark grey)
+set statusbar-fg                rgba(223,219,202,1)   # Foreground (light)
+
+set highlight-color             rgba(232,159,98,0.5)  # Orange (muted)
+set highlight-active-color      rgba(162,135,107,0.5) # Beige (neutral)
+
+set default-bg                  rgba(43,51,57,1)      # Background (dark grey)
+set default-fg                  rgba(223,219,202,1)   # Foreground (light)
+
+set render-loading              true
+set render-loading-fg           rgba(43,51,57,1)      # Background (dark grey)
+set render-loading-bg           rgba(223,219,202,1)   # Foreground (light)
+
+#
+# Recolor mode settings
+#
+
+set recolor-lightcolor          rgba(43,51,57,1)      # Background (dark grey)
+set recolor-darkcolor           rgba(223,219,202,1)   # Foreground (light)
+
+#
+# Startup options
+#
+set adjust-open width
+set recolor true
